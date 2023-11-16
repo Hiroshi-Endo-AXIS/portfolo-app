@@ -2,7 +2,7 @@
 import Image from "next/image";
 import BackgroundComponent from "./BackgroundComponent";
 import DeveloperButton from "./DeveloperButton";
-import WeatherPage from "./WeatherPage";
+import WeatherBase from "./WeatherBase";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
           <BackgroundComponent />
           <div>HELLO NEXT</div>
           <DeveloperButton />
-          <WeatherPage />
+          <WeatherBase />
         </div>
        
       </>
