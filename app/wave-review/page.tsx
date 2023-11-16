@@ -1,6 +1,8 @@
+"use client"
 import Image from "next/image";
 import BackgroundComponent from "./BackgroundComponent";
 import DeveloperButton from "./DeveloperButton";
+import WeatherPage from "./WeatherPage";
 
 export default function Home() {
   return (
@@ -10,6 +12,7 @@ export default function Home() {
           <BackgroundComponent />
           <div>HELLO NEXT</div>
           <DeveloperButton />
+          <WeatherPage />
         </div>
        
       </>
