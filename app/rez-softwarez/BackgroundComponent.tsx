@@ -5,7 +5,7 @@ import React from "react";
 const BackgroundComponent: React.FC =
   () => {
     return (
-      <div className=" w-screen h-screen bg-emerald-950">
+      <div className=" w-screen h-screen bg-black">
         {/* コンポーネントの中身なし */}
       </div>
     );

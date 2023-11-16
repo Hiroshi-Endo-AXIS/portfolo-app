@@ -1,16 +1,19 @@
 "use client";
 import Image from "next/image";
 import BackgroundComponent from "./BackgroundComponent";
-import DeveloperButton from "./DeveloperButton";
+import ButtonSiteMap from "./ButtonSiteMap";
 
 export default function Home() {
   return (
     <>
       <>
         <div>
+          <div className=" text-9xl">
+            RE:Z SOFTWAREZ
+          </div>
           <BackgroundComponent />
-          <div>HELLO NEXT</div>
-          <DeveloperButton />
+
+          <ButtonSiteMap />
         </div>
       </>
     </>
